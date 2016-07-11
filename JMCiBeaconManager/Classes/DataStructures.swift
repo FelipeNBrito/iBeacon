@@ -70,7 +70,7 @@ public class iBeacon : NSObject {
     
     
     /// Default proximity
-    internal(set) public var proximity: CLProximity  = CLProximity.Unknown
+    public var proximity: CLProximity  = CLProximity.Unknown
     
     
     /// Default state
